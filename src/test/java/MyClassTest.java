@@ -29,8 +29,8 @@ public class MyClassTest {
         spyOnList.add("Pankaj");
         spyOnList.add("Meghna");
         Assertions.assertEquals("Pankaj", spyOnList.get(0));
-
         Assertions.assertEquals("Meghna", spyOnList.get(1));*/
+        // не могу понять почему не работет, точно такойже код в при сборке через moven работал нормально!!!
     }
 
     @Test
