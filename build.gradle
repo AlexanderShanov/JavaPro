@@ -34,6 +34,23 @@ shadowJar{
 }
 
 tasks.build.dependsOn tasks.shadowJar
+// а есть ссылка на то как натраивать com.github.johnrengelman.shadow ?
+// я нашол только вот это https://www.baeldung.com/gradle-fat-jar
+// вот этот код никак не хочет запускаться
+/*
+buildscript {
+    repositories {
+        mavenCentral()
+        gradlePluginPortal()
+    }
+    dependencies {
+        classpath "gradle.plugin.com.github.johnrengelman:shadow:7.1.2"
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'com.github.johnrengelman.shadow'
+*/
 
 test {
     useJUnitPlatform()
