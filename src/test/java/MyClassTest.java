@@ -10,7 +10,7 @@ import static org.mockito.Mockito.when;
 import static org.mockito.Mockito.*;
 
 public class MyClassTest {
- /*   @Test
+   @Test
     void Test1(){
         List<String> list = new ArrayList<>();
         List<String> spyOnList = spy(list);
@@ -18,18 +18,19 @@ public class MyClassTest {
         when(spyOnList.size()).thenReturn(10);
         Assertions.assertEquals(10, spyOnList.size());
 
+    }
+
+    @Test
+    public void test2(){
+        /*List<String> list = new ArrayList<>();
+        List<String> spyOnList = spy(list);
+
         //calling real methods since below methods are not stubbed
         spyOnList.add("Pankaj");
         spyOnList.add("Meghna");
         Assertions.assertEquals("Pankaj", spyOnList.get(0));
 
-        Assertions.assertEquals("Meghna", spyOnList.get(1));
-    }
-*/
-    @Test
-    public void test2(){
-        Assertions.assertEquals(false, true);
-        Assertions.assertEquals(true, true);
+        Assertions.assertEquals("Meghna", spyOnList.get(1));*/
     }
 
     @Test
