@@ -24,11 +24,11 @@ dependencies {
 
 shadowJar{
     archiveBaseName.set('fat-jar-file')
-    archiveVersion.set('0.0.2')
+    archiveVersion.set('0.0.3')
     archiveClassifier.set('')
     manifest {
         attributes(
-                'Main-Class': 'org.example.Main'
+                'Main-Class': 'org.example.HelloOtus'
         )
     }
 }
